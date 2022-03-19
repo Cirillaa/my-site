@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+
+.img {
+    vertical-align: top;}
+h1,
+h2,
+h3,
+h4 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li,
+ol {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+html,
+body {
+    height:100%;
+    line-height: 1;
+}
+.container {
+   max-width: 1057px;
+    margin:0px auto;
+    
+}
+body {
+    font-family: Lato;
+}
+
+.navig {
+    display: flex;
+}
+ul {
+    display:flex; 
+    padding: 15px;
+    column-gap: 40px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;   
+}
+li {
+   font-size: 18px;
+    line-height: 1.2;
+    color: black;
+}
+
+a {
+    padding: 15px;
+    color:black;
+    
+}
+
+a:hover {
+    background-color: #006D4F;
+    color: white;
+    transition: 0,5s ease 0s;
+    border-radius: 30px;
+}
+
+.logo_img {
+    font-family: Lato;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 1,2;
+    padding:20px;
+    border: 1px solid #ccc;
+    border-radius: 70px;
+    
+}
+
+.main {
+    background-image: url(img/phone.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+}
+.main_title {
+    font-family: Lato;
+    font-weight: 700;
+    font-size:35px;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 30%;
+}
+.main_under {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20%;
+    
+}
+button {
+    display: flex;
+    margin: 0px auto;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 25px;
+    line-height: 1.2;
+    background-color: #006D4F;
+    border-radius: 15px;
+    border-color: #006D4F;
+    transition: background-color 0,3s ease 0s;
+    color: white;  
+}
+button:hover {
+    background-color: #FF9A40;
+      border-color: #FF9A40;
+}
+.main_bottom {
+    margin-bottom: 10%;
+}
+
+.dogs_title {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.chelsea {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.imgch {
+    width: 300px;
+    height:auto;
+}
+
+.title_chelsea {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 7%;
+}
+.under_chelsea {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 5%;
+}
+.ciri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgci {
+    width: 300px;
+    height: auto;
+}
+.title_ciri {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 7%;
+}
+.under_ciri {
+    font-size: 20px;
+    margin-right: 30px;
+    margin-bottom: 5%;
+}
+.title_about {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: White;
+    padding:30px;
+}
+.about {
+    background-color: #006D4F;
+}
+.under_about {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+.row1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+}
+.row2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 
+}
+
+.health {
+    display:flex;
+}
+.text_health {
+    color:white;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-left: 10px
+}
+.stand {
+    display:flex;
+}
+.text_stand {
+    color:white;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-left: 10px;
+}
+.support {
+    display:flex;
+}
+.text_sup {
+    color:white;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-left: 10px;
+}
+.love {
+    display: flex;
+    
+}
+.text_love {
+    color:white;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-left: 10px;
+}
+.principle {
+    padding: 30px;
+}
+.contacts {
+    display:flex;
+    margin-top: 5%;
+    justify-content: flex-end;
+}
+.geo {
+    font-size: 18px;
+    margin-left: auto;
+}
+.page-header {
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
